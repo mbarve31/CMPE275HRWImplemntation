@@ -1,0 +1,17 @@
+group 'madhura'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile 'com.google.guava:guava:11.0.2'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
